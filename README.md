@@ -1,6 +1,4 @@
-Scrapping
-=========
-Seperate projects in one repository
-Scrapping web using :-
-1 Using PHP curl,
-2 Scrapy
+Python-Scripts
+==============
+
+Few python scripts I used to do my day to day stuff.
