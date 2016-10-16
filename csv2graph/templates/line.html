@@ -1,0 +1,38 @@
+{% extends "index.html" %}
+{% block content %}
+
+        <script type="text/javascript" src="{{ url_for('static', filename='chart.js') }}"></script>
+
+<h2>Pie Graph: Gender variation</h2>
+    <div id="canvas-holder">
+      <canvas id="gender-pie-chart-area" width="300" height="300"/>
+    </div>
+
+
+  <script>
+
+    var pieData = [
+        {
+          value: {{femalec}},
+          color:"#F7464A",
+          highlight: "#FF5A5E",
+          label: "Female"
+        },
+        {
+          value: {{malec}},
+          color: "#46BFBD",
+          highlight: "#5AD3D1",
+          label: "Male"
+        }
+      ];
+
+      window.onload = function(){
+        var ctx = document.getElementById("gender-pie-chart-area").getContext("2d");
+        window.myPie = new Chart(ctx).Pie(pieData);
+      };
+
+
+
+  </script>
+  {% endblock %}
+  

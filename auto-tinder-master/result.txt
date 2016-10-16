@@ -1,0 +1,56 @@
+{
+  distance_mi: 4,
+  common_connections: [],
+  connection_count: 2041,
+  common_like_count: 0,
+  common_friend_count: 1,
+  common_likes: [],
+  common_interests: [],
+  uncommon_interests: [],
+  common_friends: ['782942785'],
+  content_hash: 'NE2s5migjtG8cqxH4PIb6CjpfPjf7zt0dfLrSmJUZ2H9khq',
+  _id: '5412a40741ab791f4a59ef54',
+  badges: [],
+  bio: 'Its a dance life! \n',
+  birth_date: '1991-07-30T18:29:50.180Z',
+  gender: 1,
+  name: 'Saniya',
+  ping_time: '2016-07-27T16:52:00.816Z',
+  photos: [{
+    id: '47fa45bb-99f3-4ab5-aa5b-aa864199b80d',
+    url: 'http://images.gotinder.com/5412a40741ab791f4a59ef54/47fa45bb-99f3-4ab5-aa5b-aa864199b80d.jpg',
+    processedFiles: [Object]
+  }, {
+    id: 'eb8c3dff-f129-490e-8bde-0f9cabaa0957',
+    url: 'http://images.gotinder.com/5412a40741ab791f4a59ef54/eb8c3dff-f129-490e-8bde-0f9cabaa0957.jpg',
+    processedFiles: [Object]
+  }, {
+    id: '1375ef50-f8f4-4784-9b74-d234f186187b',
+    url: 'http://images.gotinder.com/5412a40741ab791f4a59ef54/1375ef50-f8f4-4784-9b74-d234f186187b.jpg',
+    processedFiles: [Object]
+  }, {
+    id: 'cf31f684-67c5-4912-8551-65aae03b9176',
+    url: 'http://images.gotinder.com/5412a40741ab791f4a59ef54/cf31f684-67c5-4912-8551-65aae03b9176.jpg',
+    processedFiles: [Object]
+  }, {
+    id: '38cdeb17-33da-412e-96b8-75fcacaa90a8',
+    url: 'http://images.gotinder.com/5412a40741ab791f4a59ef54/38cdeb17-33da-412e-96b8-75fcacaa90a8.jpg',
+    processedFiles: [Object]
+  }, {
+    id: 'a5e6a2af-99e7-4e8a-a1d9-d6fed807d793',
+    url: 'http://images.gotinder.com/5412a40741ab791f4a59ef54/a5e6a2af-99e7-4e8a-a1d9-d6fed807d793.jpg',
+    processedFiles: [Object]
+  }],
+  jobs: [{
+    company: [Object]
+  }],
+  schools: [{
+    name: 'Kirori Mal College, Delhi University',
+    id: '114773138535778'
+  }],
+  teaser: {
+    string: 'The Danceworx',
+    type: 'position'
+  },
+  birth_date_info: 'fuzzy birthdate active, not displaying real birth_date'
+}

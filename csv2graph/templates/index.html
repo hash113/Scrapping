@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <script type="text/javascript" src="{{ url_for('static', filename='chart.js') }}"></script>
+    <div class="tophead">
+      <center>
+        <h1 class="heading">GRAPHR</h1>
+        <h2> Convert CSV data-file to graphs</h2>
+      <div>
+      
+      <form action="upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file"><br /><br />
+        <input type="submit" value="Submit" class="submitbtn">
+      </form>
+      </div>
+      
+      <div class="container">
+      {% block content %}
+      {% endblock %}
+    </div>
+      </div>
+    </div>
+    </center>
+  </body>
+  
+</html>
+ 

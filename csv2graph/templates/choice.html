@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<h2>The list of Column in the CSV file uploaded</h2>
+<h3> Select your variable </h3>
+<form action="vselection" method="post" enctype="multipart/form-data">
+  {% for element in line1 %}
+    <input type="checkbox" name="csvcolumn" value='{{element}}'>{{ element }}<br>
+  {% endfor %}
+  <input type="submit" value="Submit">
+</form>
+{% block chart %}
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "index.html" %}
+{% block content %}
+<!-- <h3>Please Select the graph you want</h3>
+<form action="create" method="post" enctype="multipart/form-data">
+<select>
+  <option value="bar">Bar</option>
+  <option value="dougnut">Dougnut</option>
+  <option value="line">Line</option>
+  <option value="pie">Pie</option>
+</select>
+
+<input type="submit" value="Submit">
+</form>
+ -->
+<!-- {{ row}} -->
+<!-- printing the first row -->
+<div class="information">
+<h2>Information of CSV You uploaded</h2>
+<h5>
+  <script>
+  var line='{{row}}';
+  </script>
+ <h4>Available Elements:</h4>
+ <ul>
+ {% for element in row %}  
+ <li>{{ element }}</li>
+ {% endfor %}
+ </ul>
+ <br>
+ 
+ <h4>Name list:</h4> {{name}}
+ <h4>Age list:( in sorted order)</h4> {{age}}
+ <h4>gender list:</h4> {{gender}}
+ <h4>city list:</h4> {{city}}
+</h5>
+<!-- {{complete}} -->
+<script>
+// alert('{{ row}}');  
+</script>
+</div>
+      {% endblock %}
